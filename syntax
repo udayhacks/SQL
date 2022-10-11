@@ -1,0 +1,19 @@
+
+
+ ----------------------------(1)------------------------------
+---->>>select 
+(WHO LPG I) 
+
+SELECT [ ALL | DISTINCT ]
+expressions
+FROM tables
+[WHERE conditions]
+[GROUP BY expressions]
+[HAVING condition]
+[ORDER BY expression [ ASC | DESC ]]
+[LIMIT [offset_value] number_rows | LIMIT number_rows OFFSET offset_value]
+[PROCEDURE procedure_name]
+[INTO [ OUTFILE 'file_name' options 
+       | DUMPFILE 'file_name'
+       | @variable1, @variable2, ... @variable_n ]
+[FOR UPDATE | LOCK IN SHARE MODE];

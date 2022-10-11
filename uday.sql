@@ -104,4 +104,4 @@ when salary <= 10000 then "low paid"
 when salary >= 100000 then "high paid"
 else "service worker"
 end as salary_status
-from employee ;
+from employee ; 
