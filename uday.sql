@@ -105,3 +105,18 @@ when salary >= 100000 then "high paid"
 else "service worker"
 end as salary_status
 from employee ; 
+
+select * from employee where (sex ='f' and super_id = 102)
+ or (salary >100000)
+ group by sex ;
+
+
+
+
+SELECT * FROM employee WHERE (super_id = 102 AND SEX ="f") OR (salary>75000)
+
+SELECT branch_id,supplier_name,suppy_type FROM branch_supplier;
+select * from employee where (sex ='f' and super_id = 102)
+ or (salary >100000)
+ group by sex
+  ;
