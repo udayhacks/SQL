@@ -119,4 +119,4 @@ SELECT branch_id,supplier_name,suppy_type FROM branch_supplier;
 select * from employee where (sex ='f' and super_id = 102)
  or (salary >100000)
  group by sex
-  ;
+  
